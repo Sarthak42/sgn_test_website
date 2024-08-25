@@ -108,6 +108,23 @@
   cursor: pointer;
 }
 
+/* Ensure images in the slider area are responsive */
+.slider-area img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add media queries for specific adjustments on mobile devices */
+@media (max-width: 768px) {
+  .slider-area {
+      /* Adjust slider area styles for mobile view if needed */
+  }
+
+  .hero__caption h1 {
+      font-size: 1.5em; /* Example adjustment for smaller screens */
+  }
+}
+
 /* line 80, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_variables.scss */
 .boxed-btn:hover {
   background: #3589f1;
